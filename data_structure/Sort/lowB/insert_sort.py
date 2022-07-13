@@ -9,3 +9,14 @@ def insert_sort(li):
         li[j + 1] = tmp
 
     return li
+
+
+d
+if __name__ == "__main__":
+    import random
+
+    li = [i for i in range(10)]
+    random.shuffle(li)
+    print(li)
+    li = insert_sort(li)
+    print(li)
