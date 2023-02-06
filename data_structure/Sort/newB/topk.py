@@ -31,6 +31,7 @@ def topk(li, k):
 
     for i in range((k-2)//2, -1, -1):  # O(nlogn/2)
         sift(heap, i, k - 1)
+    print(heap)
     # finish establish the heap
 
     for i in range(k, len(li)):
@@ -43,3 +44,7 @@ def topk(li, k):
         heap[0], heap[i] = heap[i], heap[0]
         sift(heap, 0, i - 1)
     return heap
+
+
+li = topk([3,2,1,45,6,7,4,5,6,7,3,7,4567,234,4,523,23],5)
+print(li)

@@ -3,3 +3,7 @@ data_structure/exam*
 **/.idea/
 **/.DS_Store
 **/.__pycache__/
+
+**/*ignoredContent*
+**/.vscode/
+**/*.code-workspace
