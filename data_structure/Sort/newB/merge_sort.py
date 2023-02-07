@@ -25,7 +25,7 @@ def merge(li, low, mid, high):
 
 def merge_sort(li, low, high):
     if low < high:  # at least two element
-        mid = low(low + high) // 2
+        mid = (low + high) // 2
         merge_sort(li, low, mid)
         merge_sort(li, mid+1, high)
         merge(li, low, mid, high)

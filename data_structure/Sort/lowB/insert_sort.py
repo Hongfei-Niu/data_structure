@@ -11,7 +11,6 @@ def insert_sort(li):
     return li
 
 
-d
 if __name__ == "__main__":
     import random
 
