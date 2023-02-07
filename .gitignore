@@ -1,6 +1,16 @@
-data_structure/exam*
-./.DS_Store
-./.idea
-./*/.DS_Store
-./*/.idea
+# ignore selected files
+**/*ignoredContent*
+**/exam*
 
+# ignore cache files
+**/.__pycache__/
+**/.ipynb_checkpoints/
+
+# ignore System & IDEA config files
+**/.DS_Store
+**/.vscode/
+**/.idea/
+
+## ignore C++ make files
+**/*.dSYM/
+**/*.cpp
